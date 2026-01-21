@@ -1,0 +1,19 @@
+{
+  "extract": {
+    "delay": 1.5,
+    "max_pages": 1000,
+    "headless": true,
+    "timeout": 30000
+  },
+  "download": {
+    "delay": 2.0,
+    "concurrent": 1,
+    "timeout": 30000,
+    "use_playwright": false
+  },
+  "upload": {
+    "delay": 0.5,
+    "batch_size": 50,
+    "pattern": "*.md"
+  }
+}
